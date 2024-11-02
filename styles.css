@@ -11,16 +11,20 @@ html {
     --color-footer-text: white;
     --dash-color: rgb(150, 150, 250);
     --background: url('/images/Haven\_City_Night.png');
+    --logo-text-black: none;
+    --logo-text-white: block;
 }
 [data-theme="dark"] {
     --color-one: rgb(173, 239, 209);
     --color-one-transparent: rgba(173, 239, 209, 0.5);
-    --color-two: rgb(70, 0, 40);
+    --color-two: rgb(0, 32, 63);
     --color-two-transparent: rgba(0, 32, 63, 0.5);
     --color-three: rgb(110, 160, 255);
     --color-footer-text: black;
     --dash-color: rgb(150, 250, 150);
     --background: url('/images/Haven_City_Night1.png');
+    --logo-text-black: block;
+    --logo-text-white: none;
 }
 body {
     color: var(--color-one);
@@ -46,7 +50,7 @@ main{
 }
 header {
     grid-area: head;
-    line-height: 0;
+    top: 0;
     padding: 4px;
     text-decoration: none;
     color: var(--color-two);
@@ -57,10 +61,11 @@ header a {
     text-decoration: none;
     color: var(--color-two);
 }
-header img {
-    display: none;
-    width: 0;
-    height: 0;
+header .logoBlack{
+    display: var(--logo-text-black);
+}
+header .logoWhite{
+    display: var(--logo-text-white);
 }
 nav{
     grid-area: nav;
