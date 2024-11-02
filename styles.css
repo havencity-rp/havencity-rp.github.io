@@ -20,8 +20,11 @@ html {
 }
 body {
     color: var(--color-one);
-    background-color: rgb(50, 50, 50);
     background: url('/images/Haven\ City\ Night.jpg');
+    background-color: rgb(110, 0, 60);
+    background-position-y: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
     overflow: auto;
 }
 main{
