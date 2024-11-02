@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Khvedela, Khvedelasenpai, Nicholas Khvedelidze">
+        <meta name="description" content="Khvedela's main website">
+        <meta name="author" content="Nicholas Khvedelidze">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles.css">
+        <title>khvedela</title>
+        <link rel="icon" href="/icons/Icon_Round_4096x4096.png">
+        <script src="/myScript.js"></script>
+    </head>
+    <body onload="loadTheme()">
+    <main>
+        <header>
+            <a href="/">
+                <img src="icons/Logo_Text_W.png" alt="HC" class="logoWhite">
+                <img src="icons/Logo_Text_B.png" alt="HC" class="logoBlack">
+            </a>
+        </header>
+        <nav id="navbar">
+            <a class="nav-button" href="/">Home</a>
+            <a class="nav-button" href="/about/">About</a>
+            <a class="nav-button" href="#">Contact Me</a>
+            <a class="nav-button-open" id="navButtonOpen" onclick="openSideNav()">Ξ</a>
+        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a class="nav-button" href="/upcoming-updates/" title="Upcoming Updates">
+                Upcoming Updates
+            </a>
+            <button class="btn-toggle" id="btn-toggle" onclick="toggleMode()">Light Mode</button>
+        </div>
+        <article style="text-align: center;">
+            <p class="error404">Error #404<br>Page Was Not Found</p>
+            <a class="btn-normal" href="/">Home</a>
+        </article>
+        <footer>
+            <p>&copy;Nicholas Khvedelidze. All rights reserved</p>
+        </footer>
+    </main>
+    </body>
+</html>
