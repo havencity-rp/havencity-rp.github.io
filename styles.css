@@ -7,21 +7,25 @@ html {
     --color-one-transparent: rgba(0, 32, 63, 0.5);
     --color-two: rgb(173, 239, 209);
     --color-two-transparent: rgba(173, 239, 209, 0.5);
+    --color-three: rgb(110, 0, 60);
     --color-footer-text: white;
     --dash-color: rgb(150, 150, 250);
+    --background: url('/images/Haven\_City_Night.png');
 }
 [data-theme="dark"] {
     --color-one: rgb(173, 239, 209);
     --color-one-transparent: rgba(173, 239, 209, 0.5);
-    --color-two: rgb(0, 32, 63);
+    --color-two: rgb(70, 0, 40);
     --color-two-transparent: rgba(0, 32, 63, 0.5);
+    --color-three: rgb(110, 160, 255);
     --color-footer-text: black;
     --dash-color: rgb(150, 250, 150);
+    --background: url('/images/Haven_City_Night1.png');
 }
 body {
     color: var(--color-one);
-    background: url('/images/Haven\ City\ Night.jpg');
-    background-color: rgb(110, 0, 60);
+    background: var(--background);
+    background-color: var(--color-three);
     background-position-y: 60px;
     background-size: 100%;
     background-repeat: no-repeat;
