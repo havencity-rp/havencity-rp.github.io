@@ -334,7 +334,7 @@ nav > .nav-button-open:hover {
 }
 .btn-download{
     display: inline-block;
-    background-color:rgb(255, 70, 70);
+    background-color: var(--color-two-transparent);
     color: white;
     font-size: 32px;
     text-decoration: none;
@@ -342,7 +342,7 @@ nav > .nav-button-open:hover {
     padding: 8px;
 }
 .btn-download:hover{
-    background-color:rgb(255, 50, 50);
+    color: rgb(180, 10, 10);
 }
 .material-symbols-outlined {
   font-variation-settings:
