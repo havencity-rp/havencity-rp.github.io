@@ -336,6 +336,7 @@ nav > .nav-button-open:hover {
     display: inline-block;
     background-color: var(--color-two-transparent);
     color: white;
+    font-weight: bold;
     font-size: 32px;
     text-decoration: none;
     border-radius: 8px;
