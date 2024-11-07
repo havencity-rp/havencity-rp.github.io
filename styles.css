@@ -63,9 +63,11 @@ header a {
 }
 header .logoBlack{
     display: var(--logo-text-black);
+    height: 6vmin;
 }
 header .logoWhite{
     display: var(--logo-text-white);
+    height: 6vmin;
 }
 nav{
     grid-area: nav;
